@@ -1,0 +1,7 @@
+
+def sum(k,num):
+    m=(num-1)//k
+    total=int(k*m*(m+1)/2)
+    return total
+sum_x=sum(3,1000)+sum(5,1000)-sum(15,1000)
+print(sum_x)
